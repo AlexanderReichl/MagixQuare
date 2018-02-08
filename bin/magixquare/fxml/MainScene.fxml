@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="387.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ChoiceBox id="00" fx:id="box11" layoutX="146.0" layoutY="151.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="01" fx:id="box12" layoutX="205.0" layoutY="151.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="02" fx:id="box13" layoutX="263.0" layoutY="151.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="10" fx:id="box21" layoutX="145.0" layoutY="188.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="11" fx:id="box22" layoutX="204.0" layoutY="188.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="12" fx:id="box23" layoutX="262.0" layoutY="188.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="20" fx:id="box31" layoutX="145.0" layoutY="227.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="21" fx:id="box32" layoutX="204.0" layoutY="227.0" prefHeight="25.0" prefWidth="47.0" />
+      <ChoiceBox id="22" fx:id="box33" layoutX="262.0" layoutY="227.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label id="dup" fx:id="dup" layoutX="329.0" layoutY="112.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label id="r1" fx:id="r1" layoutX="329.0" layoutY="151.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label id="r2" fx:id="r2" layoutX="329.0" layoutY="189.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label id="r3" fx:id="r3" layoutX="329.0" layoutY="227.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label fx:id="ddown" layoutX="329.0" layoutY="266.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label id="c1" fx:id="c1" layoutX="146.0" layoutY="266.0" prefHeight="25.0" prefWidth="47.0" textAlignment="CENTER" />
+      <Label id="c2" fx:id="c2" layoutX="204.0" layoutY="266.0" prefHeight="25.0" prefWidth="47.0" textAlignment="CENTER" />
+      <Label id="c3" fx:id="c3" layoutX="263.0" layoutY="266.0" prefHeight="25.0" prefWidth="47.0" textAlignment="CENTER" />
+      <Button fx:id="reset" layoutX="57.0" layoutY="67.0" mnemonicParsing="false" text="Zurücksetzen" />
+      <Label fx:id="status" layoutX="166.0" layoutY="62.0" prefHeight="36.0" prefWidth="259.0" text="" textFill="#1454f8">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="57.0" layoutY="14.0" text="Vergebe die Zahlen 1 bis 9  jeweils in die Felder, damit die Summe aller " />
+      <Label layoutX="57.0" layoutY="34.0" text="Waagerechten, Senkrechten und Diagonale Felder 15 ergibt." />
+   </children></AnchorPane>
